@@ -2,17 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedBullet : MonoBehaviour
+public class RedBullet : Bullet
 {
-    // Start is called before the first frame update
-    void Start()
+   /* public override void FireTheBullet()
     {
-        
-    }
+        base.FireTheBullet();
+    }*/
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
